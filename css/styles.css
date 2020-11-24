@@ -1,0 +1,163 @@
+/* 
+Основной цвет текста #757575;
+вторичный цвет текста (цвет заголовков)#212121; 
+Вторичный цвет текста и цвет героя #FFFFFF; 
+Цвет фона #FFFFFF;
+Цвет акцента #2196F3;
+вторичный цвет фона #F5F4FA;
+*/
+
+
+:root {
+    --primary-text-color: #757575;
+    --title-text-color:#212121;
+    --secondary-text-color:#FFFFFF;
+    --backround-color:#FFFFFF;
+    --accent-color:#2196F3;
+    --secondary-backround-color: #F5F4FA;
+    --footer-backround-color:#2F303A;
+}
+
+a {
+    text-decoration: none;
+  }
+  .list {
+list-style: none;
+  }
+
+.logo .main {
+    color: var(--title-text-color);
+}
+.logo .accent {
+    color: var(--accent-color);
+}
+
+
+.site-nav .link {
+color: var(--title-text-color);
+}
+
+.site-nav .link:hover
+ 
+ {
+    color: var(--accent-color);
+}
+
+.site-nav .link:focus
+ 
+ {
+    color: var(--accent-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+.auth-nav .link {
+    color: var(--primary-text-color);
+}
+
+.auth-nav .link:hover {
+    color: var(--accent-color);
+}
+
+.auth-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.hero {
+    color: var(--secondary-text-color);
+    background-color:rgb(131, 125, 125);
+}
+
+
+.hero-button {
+color: var(--secondary-text-color);
+background-color: var(--accent-color);
+}
+
+
+.features .title {
+    color: var(--title-text-color);
+}
+
+.features .description {
+    color: var(--primary-text-color);
+}
+
+
+.function .title {
+    color: var(--title-text-color);
+}
+
+.function .description {
+    color: var(--secondary-backround-color);
+    background-color: gray;
+}
+
+.team .title {
+    color: var(--title-text-color);
+}
+
+.team .position {
+    color: var(--primary-text-color);
+}
+
+.clients-title {
+    color: var(--title-text-color);
+}
+
+.footer {
+    background-color: var(--footer-backround-color);
+}
+
+.footer .logo-accent {
+   color: var(--accent-color) 
+}
+
+.footer .logo-main {
+    color: var(--secondary-text-color);
+}
+
+.footer .address {
+    color: var(--secondary-text-color);
+}
+
+.footer .subscribe {
+    color: var(--secondary-text-color);
+}
+
+.footer-button, 
+.footer-mainbutton {
+    color: var(--secondary-text-color);
+}
+
+.footer-mainbutton {
+    background-color: var(--accent-color);
+}
+
+/* Portfolio buttons */
+.portfolio .button {
+    color: var(--title-text-color);
+}
+.portfolio .button:hover {
+    color: var(--accent-color);
+}
+.portfolio .button:focus {
+    color: var(--accent-color);
+}
+
+.portfolio-examples .text {
+    color: var(--secondary-text-color);
+    background-color: var(--accent-color);
+}
+
+
+.portfolio-examples .title {
+    color: var(--title-text-color);
+   
+}
+
+.portfolio-examples .description {
+    color: var(--primary-text-color);
+}
