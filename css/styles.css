@@ -122,7 +122,7 @@ display:flex;
     width:16px; 
     height:11.2px; 
     display:inline-block;
-    vertical-align: bottom;
+    /* vertical-align: bottom; */
     align-items: center;
 }
 
@@ -134,9 +134,13 @@ display:flex;
     width:10px; 
     height:14.94px; 
     display:inline-block;
-    vertical-align: bottom;
+    vertical-align: center;
     align-items: center;
 }
+
+
+
+
 .site-nav .item:not(:last-child) {
 margin-right:50px;
 }
@@ -604,6 +608,43 @@ margin-top:0;
 
 .social-linkk:focus {
     color:var(--accent-color);
+}
+
+
+.network::before{
+    display: inline-block;
+    content: "";
+    width: 44px;
+    height: 44px;  
+    display:inline-block;
+    align-items: center;
+    background-repeat: no-repeat;
+}
+.icon-facebook::before {
+    background-image: url("../images/facebook.svg");
+}
+
+.icon-twitter::before {
+    background-image: url("../images/twitter.svg");
+}
+.icon-insta::before {
+    background-image: url("../images/twitter.svg");
+}
+.icon-linkdin::before {
+    background-image: url("../images/linkedin.svg");
+}
+
+.network:not(:last-child) {
+    margin-right: 10px;
+}
+
+
+.social-linkk {
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    background-image: url("../images/facebook.svg");
+    background-repeat: no-repeat;
 }
 
 .clients .list {
